@@ -1,0 +1,12 @@
+package com.rays.oop;
+
+public class Logic {
+	
+	public void sum(){
+		System.out.println("sum method...!");
+		
+		
+		
+	}
+
+}

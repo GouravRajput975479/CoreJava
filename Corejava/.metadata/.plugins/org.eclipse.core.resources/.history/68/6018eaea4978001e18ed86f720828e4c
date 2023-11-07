@@ -1,0 +1,15 @@
+package in.com.rays;
+
+public class add12 {
+	
+	public static void main(String[] args) {
+		
+		String name = "Vijay dinanatha chauhan";
+		System.out.println("String length-"+name lenght());
+		
+		
+		
+	}
+	
+
+}

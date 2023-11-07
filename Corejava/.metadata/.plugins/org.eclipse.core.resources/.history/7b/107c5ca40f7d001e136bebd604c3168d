@@ -1,0 +1,16 @@
+package com.rays.constuctor;
+
+public class TestAccount {
+	public static void main(String[] args) {
+		
+		Account ac = new Account(500);
+		ac.deposit();
+		ac.withdraw();
+		
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,16 @@
+package in.com.rays;
+
+public class Testcopyarray {
+	public static void main(String[] args) {
+		
+	
+	
+	char [] copyfrom = {'a','b','c','d','e','f'};
+	char []copyto = new char [4];
+	System.arraycopy(copyfrom, 2, copyto,2,3);
+	System.out.println(new String (copyto));
+	
+	
+
+}
+}

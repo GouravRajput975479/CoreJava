@@ -1,0 +1,26 @@
+package com.rays.constuctor;
+
+public class Account {
+	
+	private int balance = 0;
+	public Account(int balance) {
+		this.balance=balance;
+	}
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	public void deposit() {
+		System.out.println("balance"+getBalance());
+
+	}
+	public void withdraw() {
+		int less=getBalance()-100;
+		System.out.println(less);
+	}
+	
+	
+}

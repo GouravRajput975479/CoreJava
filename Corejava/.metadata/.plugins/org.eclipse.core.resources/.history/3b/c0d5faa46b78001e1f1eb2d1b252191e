@@ -1,0 +1,15 @@
+package in.com.rays;
+
+public class Testavrage1 {
+	
+	int n=10;
+	int count = 0;
+	int avg;
+	int sum = 0;
+	
+	
+	
+
+	
+
+}

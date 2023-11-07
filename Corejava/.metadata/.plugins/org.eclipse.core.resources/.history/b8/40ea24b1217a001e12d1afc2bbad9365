@@ -1,0 +1,20 @@
+package com.rays.oop;
+
+public class Testlogic {
+	
+	public static void main(String[] args) {
+		
+		logic l = new logic();
+		
+		l.sum();
+		String s = l.name();
+		System.out.println(s);
+		
+		
+		
+		
+		
+	}
+	
+
+}
