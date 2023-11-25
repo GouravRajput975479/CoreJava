@@ -1,0 +1,22 @@
+package in.com.inter;
+
+public class Testinter {
+	
+	
+	public static void main(String[] args) {
+		
+		RichMan rm = new Businessman();
+		rm.earnMoney();
+		rm.donation();
+		rm.party();
+		
+	   socialWorker sw = new Businessman();
+	   sw.helpToOther();
+	   System.out.println(RichMan.ABC);
+		
+		
+		
+	}
+	
+
+}

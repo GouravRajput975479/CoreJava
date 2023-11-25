@@ -1,0 +1,28 @@
+package in.com.constructercalling;
+
+public class Employee extends Person {
+	
+	private String designation;
+	
+	public Employee() {
+		System.out.println("Employee default ");
+	}
+	
+	public Employee(String firstName, String lastName, String designation) {
+		this.designation =  designation;
+		super(firstName, lastName);
+		System.out.println("Employee 1 parameter constructer");
+	}
+	
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	
+	
+	
+	
+
+}

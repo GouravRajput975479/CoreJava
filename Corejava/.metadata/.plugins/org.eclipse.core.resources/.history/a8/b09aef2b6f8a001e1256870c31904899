@@ -1,0 +1,9 @@
+package in.com.rays.methoverriding;
+
+public class Sub extends super{
+	
+	public void Area() {
+		System.out.println("sub Area method");
+	}
+
+}
